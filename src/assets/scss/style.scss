@@ -1,0 +1,8 @@
+@import './global.scss';
+@import './mixin.scss';
+@import './variable.scss';
+$site-test: red;
+body {
+	background-color: $site-test;
+	@include test;
+}
