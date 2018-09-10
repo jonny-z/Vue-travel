@@ -1,3 +1,5 @@
-@mixin test {
-	color: blue;
+@mixin ellipsis() {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
